@@ -55,6 +55,7 @@ function App() {
                   <img
                     src={`http://localhost:1337${text.attributes.image.data.attributes.url}`}
                     alt={text.attributes.name}
+                    style={{ width: "240px", height: "240px" }} 
                   />
                 )}
               </li>
