@@ -12,10 +12,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run generate-pages && react-scripts start",
+    "build": "npm run generate-pages && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate-pages": "node generatePages.js"
+
   },
   "eslintConfig": {
     "extends": [
