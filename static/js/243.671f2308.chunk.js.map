@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/243.671f2308.chunk.js","mappings":"mJAEe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,MAAAC,SAAI,YACb,C","sources":["pages/FAQ.js"],"sourcesContent":["import React from \"react\";\n\nexport default function About() {\n  return <h1>FAQ Page</h1>;\n}\n"],"names":["About","_jsx","children"],"sourceRoot":""}

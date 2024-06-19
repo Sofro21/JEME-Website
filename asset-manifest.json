@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/JEME-Website/static/css/main.9fa3e69c.css",
+    "main.js": "/JEME-Website/static/js/main.c7481eca.js",
+    "static/js/206.7143f294.chunk.js": "/JEME-Website/static/js/206.7143f294.chunk.js",
+    "static/js/243.671f2308.chunk.js": "/JEME-Website/static/js/243.671f2308.chunk.js",
+    "static/js/936.663d30a8.chunk.js": "/JEME-Website/static/js/936.663d30a8.chunk.js",
+    "static/js/453.8ab44547.chunk.js": "/JEME-Website/static/js/453.8ab44547.chunk.js",
+    "index.html": "/JEME-Website/index.html",
+    "main.9fa3e69c.css.map": "/JEME-Website/static/css/main.9fa3e69c.css.map",
+    "main.c7481eca.js.map": "/JEME-Website/static/js/main.c7481eca.js.map",
+    "206.7143f294.chunk.js.map": "/JEME-Website/static/js/206.7143f294.chunk.js.map",
+    "243.671f2308.chunk.js.map": "/JEME-Website/static/js/243.671f2308.chunk.js.map",
+    "936.663d30a8.chunk.js.map": "/JEME-Website/static/js/936.663d30a8.chunk.js.map",
+    "453.8ab44547.chunk.js.map": "/JEME-Website/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fa3e69c.css",
+    "static/js/main.c7481eca.js"
+  ]
+}
