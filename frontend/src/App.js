@@ -10,8 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { pages } from "./pages";
 
 const loadComponent = (componentName) => {
-  const Component = React.lazy(() => import(`./pages/${componentName}`));
-  return <Component />;
+  return React.lazy(() => import(`./pages/${componentName}`));
 };
 
 function App() {
@@ -24,7 +23,7 @@ function App() {
             <Route
               key={page.path}
               path={page.path}
-              element={loadComponent(page.component)}
+              element={React.createElement(loadComponent(page.component))}
             />
           ))}
         </Routes>
