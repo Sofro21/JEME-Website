@@ -10,7 +10,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-router-dom": "^6.2.1",
+    "emailjs-com": "^3.2.0"
   },
   "scripts": {
     "start": "npm run generate-pages && react-scripts start",
