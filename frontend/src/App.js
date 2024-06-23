@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
+import ClientsSection from "./Components/Clients-Section/ClientsSection";
+import EntryAnim from "./Components/EntryAnim/EntryAnim";
+import SuccessStory from "./Components/SuccessStory/SuccessStory";
 import Footer from "./Components/Footer/Footer";
 import FAQ from "./Components/FAQ/FAQ";
 import ServiceSection from "./Components/Service-Section/ServiceSection";
@@ -28,7 +31,10 @@ function App() {
           ))}
         </Routes>
       </React.Suspense>
+      <EntryAnim />
+      <SuccessStory />
       <ServiceSection />
+      <ClientsSection />
       <FAQ />
       <Footer />
       <CntForm />
