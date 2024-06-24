@@ -14,7 +14,7 @@ import { pages } from "./pages";
 
 //Component Loading
 const loadComponent = (componentName) => {
-  return React.lazy(() => import(`./pages/${componentName}`));
+  return React.lazy(() => import(`./Pages/${componentName}`));
 };
 
 //Main App

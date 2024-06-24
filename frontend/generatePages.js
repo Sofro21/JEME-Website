@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const pagesDirectory = path.join(__dirname, "src", "pages");
+const pagesDirectory = path.join(__dirname, "src", "Pages");
 
 function generatePageList() {
   const files = fs.readdirSync(pagesDirectory);
@@ -11,15 +11,15 @@ function generatePageList() {
     return {
       path: `/${name}`,
       component: name,
-      file: `./pages/${file}`,
+      file: `./Pages/${file}`,
     };
   });
 
   const output = `
-    export const pages = ${JSON.stringify(pageComponents, null, 2)};
+    export const Pages = ${JSON.stringify(pageComponents, null, 2)};
   `;
 
-  fs.writeFileSync(path.join(__dirname, "src", "pages.js"), output);
+  fs.writeFileSync(path.join(__dirname, "src", "Pages.js"), output);
 }
 
 generatePageList();
