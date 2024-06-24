@@ -1,3 +1,4 @@
+//Imports
 import React from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
@@ -9,13 +10,14 @@ import FAQ from "./Components/FAQ/FAQ";
 import ServiceSection from "./Components/Service-Section/ServiceSection";
 import CntForm from "./Components/ContactForm/ContactForm";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import { pages } from "./pages";
 
+//Component Loading
 const loadComponent = (componentName) => {
   return React.lazy(() => import(`./pages/${componentName}`));
 };
 
+//Main App
 function App() {
   return (
     <Router>

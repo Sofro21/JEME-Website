@@ -1,29 +1,28 @@
-
-    export const pages = [
+//Automatic Page Generation Specifics
+export const pages = [
   {
-    "path": "/AboutUs",
-    "component": "AboutUs",
-    "file": "./pages/AboutUs.js"
+    path: "/aboutUs",
+    component: "AboutUs",
+    file: "./pages/AboutUs.js",
   },
   {
-    "path": "/Clients",
-    "component": "Clients",
-    "file": "./pages/Clients.js"
+    path: "/clients",
+    component: "Clients",
+    file: "./pages/Clients.js",
   },
   {
-    "path": "/Home",
-    "component": "Home",
-    "file": "./pages/Home.js"
+    path: "/home",
+    component: "Home",
+    file: "./pages/Home.js",
   },
   {
-    "path": "/Press",
-    "component": "Press",
-    "file": "./pages/Press.js"
+    path: "/press",
+    component: "Press",
+    file: "./pages/Press.js",
   },
   {
-    "path": "/Services",
-    "component": "Services",
-    "file": "./pages/Services.js"
-  }
+    path: "/services",
+    component: "Services",
+    file: "./pages/Services.js",
+  },
 ];
-  
