@@ -11,6 +11,7 @@ import ServiceSection from "./Components/Service-Section/ServiceSection";
 import CntForm from "./Components/ContactForm/ContactForm";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { pages } from "./pages";
+import ShowBoardofDirectors from "./Components/Board_of_Directors/Board_of_Directors";
 
 //Component Loading
 const loadComponent = (componentName) => {
@@ -37,6 +38,7 @@ function App() {
       <SuccessStory />
       <ServiceSection />
       <ClientsSection />
+      <ShowBoardofDirectors/>
       <FAQ />
       <Footer />
       <CntForm />

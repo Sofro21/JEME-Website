@@ -39,7 +39,7 @@ const ShowBoardofDirectors = () => {
                 {boardmembers && boardmembers.data.map((member) => (
                     <div> 
                         <h2 key={member.id}>{member.attributes.Name}</h2>
-                        <img src={"http://localhost:1337" + member.attributes.Image.data.attributes.url}/>
+                        <img src={"http://localhost:1337" + member.attributes.Photo.data[0].attributes.url}/>
                     </div>
                    
                 ))}
